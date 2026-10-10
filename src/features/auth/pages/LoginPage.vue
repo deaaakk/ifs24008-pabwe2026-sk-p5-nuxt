@@ -37,7 +37,9 @@ async function onSubmit() {
         <Mail class="absolute left-3 top-3 h-4 w-4 text-slate-600" />
         <input
           id="login-email-input"
+          name="email"
           type="email"
+          autocomplete="username"
           placeholder="nama@email.com"
           class="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-3 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100"
           :value="email"
@@ -55,7 +57,9 @@ async function onSubmit() {
         <Lock class="absolute left-3 top-3 h-4 w-4 text-slate-600" />
         <input
           id="login-password-input"
+          name="password"
           type="password"
+          autocomplete="current-password"
           placeholder="••••••••"
           class="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-3 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100"
           :value="password"
