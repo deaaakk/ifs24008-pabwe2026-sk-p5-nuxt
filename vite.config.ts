@@ -27,7 +27,9 @@ export default defineConfig(({ mode }) => {
       proxy: apiProxy,
     },
     preview: {
+      host: "0.0.0.0",
       port,
+      allowedHosts: true,
       proxy: apiProxy,
     },
     define: {

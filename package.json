@@ -1,12 +1,13 @@
 {
-  "name": "ifs24028-pabwe2026-sk-p5-nuxt",
+  "name": "ifs24008-pabwe2026-sk-p5-nuxt",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "start": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "@toast-ui/editor": "^3.2.2",
@@ -29,6 +30,7 @@
     "@vitejs/plugin-vue": "^6.0.9",
     "@vitest/coverage-v8": "^5.0.2",
     "@vue/test-utils": "^2.5.1",
+
     "jsdom": "^30.1.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
